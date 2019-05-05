@@ -25,6 +25,23 @@ These instructions will get you a copy of the project up and running on your loc
 
 4. Run `gulp serve` to start the development server. It should automatically open the client in your browser when ready.
 
+### Libraries Used
+**express**:- used to create restful api
+
+**mongoose**:- used for connecting mongodb server and perform operations on mongodb database
+
+**redis**:- used as in-memory data structure store, used as database, cache, and message broker for authorizing user 
+
+**jsonwebtoken**:- used to generate token to authenticate user
+
+**google/maps**:- used for  google place api for getting place info
+
+**crypto**:- used for decrypting password
+
+**cors**:- used for allowing other origin request
+
+**dotenv**:- used for mentioning const in .env file
+
 ## Build & development
 
 Run `gulp build` for building and `gulp serve` for preview.
